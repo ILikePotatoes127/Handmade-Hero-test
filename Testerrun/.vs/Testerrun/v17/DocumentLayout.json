@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HuDan\\source\\repos\\Testerrun\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1434D42-2D32-49A0-B594-F22D8FBDF728}|Testerrun\\Testerrun.vcxproj|C:\\Users\\HuDan\\source\\repos\\Testerrun\\Testerrun\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E1434D42-2D32-49A0-B594-F22D8FBDF728}|Testerrun\\Testerrun.vcxproj|solutionrelative:Testerrun\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\HuDan\\source\\repos\\Testerrun\\Testerrun\\test.cpp",
+              "RelativeDocumentMoniker": "Testerrun\\test.cpp",
+              "ToolTip": "C:\\Users\\HuDan\\source\\repos\\Testerrun\\Testerrun\\test.cpp",
+              "RelativeToolTip": "Testerrun\\test.cpp",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwGMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T06:46:27.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
