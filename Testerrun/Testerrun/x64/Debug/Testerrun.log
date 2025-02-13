@@ -1,1 +1,3 @@
-﻿  Testerrun.vcxproj -> C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\x64\Debug\Testerrun.exe
+﻿  test.cpp
+C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\Testerrun\test.cpp(43,16): warning C4101: 'Test': unreferenced local variable
+  Testerrun.vcxproj -> C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\x64\Debug\Testerrun.exe

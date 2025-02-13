@@ -40,42 +40,79 @@ int CALLBACK WinMain(
     //little endian - little bit comes first
     //big endian - larger bits comes next
 
-
     projectile Test;
 
-    Test.IsThisOnFire = 1;
-    Test.Damage = 2;
-    Test.ParticlesPerSecond = 3;
-    Test.HowManyCooks = 4;
+    int x = 5;
+    int y = 10;
+    int z = 12;
+    int w;
+
+    //x = 0xA
+    //x = x << 4; shift operator
+
+    x = 0;
 
 
-    projectile* ProjPointer = &Test;
-    short* MrPointer = (short*) &Test;
-
-    projectile Projectiles[40];
-
-    projectile* ProjectilePointer = Projectiles;
-
-    int SizeOfProjectiles = sizeof(Projectiles); //16*40 size of actual array
-    int SizeOfProjectilePointer = sizeof(ProjectilePointer); //8 size of pointer
-
-    Projectiles[30].Damage = 60;
-
-    (ProjectilePointer + 30 /*C++ automatically does *sizeof(projectile) for you)*/)->Damage = 100;
-
-    //manually doing it
-    ((projectile*)((char *)ProjectilePointer + 30 * sizeof(projectile)))->Damage = 100;
+    //Bitwise operators
+    // | (or) & (and) ^ (XOR) ~ (NOT)
+    x = x | (1 << 4); 
+    //A way to combine sets tgt. 
+    //Combines current x set with another set 
+    //with 1 shifted left 4 (16 bits/1 space). 00000010
+    x = x | (1 << 8);
+    //then combines x 00000010
+    //with a 1 shifted left 8 (32 bits/2 spaces). 00000100
+    //combines to 00000110
+    x = x & (1 << 4);
+    //only gives back bits where both bits have in common
+    x = ~x;
+    //gives back inverse of the bits all 0s turn into 1s.
+    //All 1s turn into 0s
     
-    //creates byte pointer (8 bits/1 byte)
-    char* BytePointer = (char*)ProjectilePointer;
-    //Moves the byte pointer by a certain amount
-    BytePointer = BytePointer + 30*sizeof(projectile);
-    //casts it back to a projectile pointer (16 bytes)
-    projectile* Thirty = (projectile*)BytePointer;
-    //access the Damage member of the Thirty pointer and set it to 200
-    Thirty->Damage = 200;
-    //there is a difference between an object and a pointer
-    //use Test.Damage for object. Use Test->Damage for pointer
+    x = (1 << 4) | (1 << 8);
+    y = (1 << 8) | (1 << 16);
+    x = x ^ y;
+    //exlusive Or (XOR)
+    //Gets rid of all values that are the same (turns into 0)
+    //keeps all "or" values/ different values (turns into 1)
+    //SO, 00000110 XOR 00010100 turns into 00010010
+
+
+    // "boolean" - is something "true or false", "on or off"
+    x = 0; //FALSE
+    y = 1; //TRUE
+    z = 27384650; //TRUE (anything non-zero)
+    w = -673; //TRUE
+
+    //Things are either zero or they are not.
+
+    int less = (x < y);
+    int greater = (x > y);
+    int  equal = (x == y);
+    int notequal = (x != y);
+
+
+    int a = 3;
+    switch (a)
+    {
+    case 0:
+        break;
+    case 1:
+        break;
+    case 2:
+        break;
+    case 3:
+        //falls through to case 4 too
+    case 4:
+        break;
+    case 5:
+        break;
+    case 6:
+        break;
+    default:
+        break;
+    }
+
 
 
 }
