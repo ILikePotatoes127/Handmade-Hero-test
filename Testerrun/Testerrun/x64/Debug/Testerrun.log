@@ -1,8 +1,2 @@
 ﻿  test.cpp
-C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\Testerrun\test.cpp(26,18): warning C4101: 'LargeU': unreferenced local variable
-C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\Testerrun\test.cpp(23,20): warning C4101: 'MediumU': unreferenced local variable
-C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\Testerrun\test.cpp(25,9): warning C4101: 'LargeS': unreferenced local variable
-C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\Testerrun\test.cpp(19,10): warning C4101: 'SmallS': unreferenced local variable
-C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\Testerrun\test.cpp(22,11): warning C4101: 'MediumS': unreferenced local variable
-C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\Testerrun\test.cpp(20,19): warning C4101: 'SmallU': unreferenced local variable
   Testerrun.vcxproj -> C:\Users\HuDan\OneDrive\Documents\GitHub\Handmade-Hero-test\Testerrun\x64\Debug\Testerrun.exe
